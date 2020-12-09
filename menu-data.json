@@ -30,7 +30,7 @@
         {
             "id": 6,
             "name": "Meatballs",
-            "price": 11.50
+            "price": 11.5
         },
         {
             "id": 7,
@@ -64,4 +64,5 @@
             "name": "Ice cream",
             "price": 3.5
         }
-    ]}
+    ]
+}
