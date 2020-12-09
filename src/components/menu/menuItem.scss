@@ -1,0 +1,27 @@
+.menu-items-container {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding-bottom: 8px;
+
+    .dish {
+        min-width: 128px;
+        min-height: 64px;
+        margin-bottom: 8px;
+        background-color: #ece0f7;
+        border: none;
+        outline: none;
+        border-radius: 8px;
+        box-shadow: 4px 4px 12px 0px rgba(0, 0, 0, 0.5);
+        cursor: pointer;
+        transition: transform 0.2s;
+        &:active {
+            transform: scale(0.9);
+        }
+
+        .dish-price {
+            font-size: smaller;
+            margin: 4px 0 0 0;
+        }
+    }
+}

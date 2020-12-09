@@ -1,0 +1,580 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<App /> Renders <App /> component correctly 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <header
+        class="header"
+      >
+        Menu Test
+      </header>
+      <div
+        class="app-container"
+      >
+        <div
+          class="menu-list"
+        >
+          <div>
+            <div>
+              <h2>
+                Starters
+              </h2>
+              <div
+                class="menu-items-container"
+              >
+                <span>
+                  <button
+                    class="dish"
+                    type="button"
+                  >
+                    Soup
+                    <p
+                      class="dish-price"
+                    >
+                      3
+                       Eur
+                    </p>
+                  </button>
+                </span>
+                <span>
+                  <button
+                    class="dish"
+                    type="button"
+                  >
+                    Pâté
+                    <p
+                      class="dish-price"
+                    >
+                      5
+                       Eur
+                    </p>
+                  </button>
+                </span>
+                <span>
+                  <button
+                    class="dish"
+                    type="button"
+                  >
+                    Bruschetta
+                    <p
+                      class="dish-price"
+                    >
+                      4.5
+                       Eur
+                    </p>
+                  </button>
+                </span>
+                <span>
+                  <button
+                    class="dish"
+                    type="button"
+                  >
+                    Prawn cocktail
+                    <p
+                      class="dish-price"
+                    >
+                      6
+                       Eur
+                    </p>
+                  </button>
+                </span>
+              </div>
+            </div>
+            <div>
+              <h2>
+                Mains
+              </h2>
+              <div
+                class="menu-items-container"
+              >
+                <span>
+                  <button
+                    class="dish"
+                    type="button"
+                  >
+                    Steak
+                    <p
+                      class="dish-price"
+                    >
+                      18
+                       Eur
+                    </p>
+                  </button>
+                </span>
+                <span>
+                  <button
+                    class="dish"
+                    type="button"
+                  >
+                    Meatballs
+                    <p
+                      class="dish-price"
+                    >
+                      11.5
+                       Eur
+                    </p>
+                  </button>
+                </span>
+                <span>
+                  <button
+                    class="dish"
+                    type="button"
+                  >
+                    Salmon fillet
+                    <p
+                      class="dish-price"
+                    >
+                      14
+                       Eur
+                    </p>
+                  </button>
+                </span>
+                <span>
+                  <button
+                    class="dish"
+                    type="button"
+                  >
+                    Vegetarian lasagna
+                    <p
+                      class="dish-price"
+                    >
+                      12
+                       Eur
+                    </p>
+                  </button>
+                </span>
+              </div>
+            </div>
+            <div>
+              <h2>
+                Desserts
+              </h2>
+              <div
+                class="menu-items-container"
+              >
+                <span>
+                  <button
+                    class="dish"
+                    type="button"
+                  >
+                    Sticky toffee
+                    <p
+                      class="dish-price"
+                    >
+                      18
+                       Eur
+                    </p>
+                  </button>
+                </span>
+                <span>
+                  <button
+                    class="dish"
+                    type="button"
+                  >
+                    Tiramisu
+                    <p
+                      class="dish-price"
+                    >
+                      4.5
+                       Eur
+                    </p>
+                  </button>
+                </span>
+                <span>
+                  <button
+                    class="dish"
+                    type="button"
+                  >
+                    Cheesecake
+                    <p
+                      class="dish-price"
+                    >
+                      4
+                       Eur
+                    </p>
+                  </button>
+                </span>
+                <span>
+                  <button
+                    class="dish"
+                    type="button"
+                  >
+                    Ice cream
+                    <p
+                      class="dish-price"
+                    >
+                      3.5
+                       Eur
+                    </p>
+                  </button>
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="checkout"
+        >
+          <div
+            class="checkout-container"
+          >
+            <header
+              class="checkout-header"
+            >
+              <button
+                class="select-diner-button left"
+                data-testid="select-diner-button left"
+                disabled=""
+                type="button"
+              >
+                Diner 1
+              </button>
+              <button
+                class="select-diner-button right"
+                data-testid="select-diner-button right"
+                type="button"
+              >
+                Diner 2
+              </button>
+            </header>
+            <div
+              class="checkout-items"
+            />
+            <div
+              class="checkout-footer"
+            >
+              <div
+                class="total-bill-label"
+              />
+              <button
+                class="order-button"
+                data-testid="order-button"
+                disabled=""
+                type="button"
+              >
+                Order
+              </button>
+              <div
+                class="error-text"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <header
+      class="header"
+    >
+      Menu Test
+    </header>
+    <div
+      class="app-container"
+    >
+      <div
+        class="menu-list"
+      >
+        <div>
+          <div>
+            <h2>
+              Starters
+            </h2>
+            <div
+              class="menu-items-container"
+            >
+              <span>
+                <button
+                  class="dish"
+                  type="button"
+                >
+                  Soup
+                  <p
+                    class="dish-price"
+                  >
+                    3
+                     Eur
+                  </p>
+                </button>
+              </span>
+              <span>
+                <button
+                  class="dish"
+                  type="button"
+                >
+                  Pâté
+                  <p
+                    class="dish-price"
+                  >
+                    5
+                     Eur
+                  </p>
+                </button>
+              </span>
+              <span>
+                <button
+                  class="dish"
+                  type="button"
+                >
+                  Bruschetta
+                  <p
+                    class="dish-price"
+                  >
+                    4.5
+                     Eur
+                  </p>
+                </button>
+              </span>
+              <span>
+                <button
+                  class="dish"
+                  type="button"
+                >
+                  Prawn cocktail
+                  <p
+                    class="dish-price"
+                  >
+                    6
+                     Eur
+                  </p>
+                </button>
+              </span>
+            </div>
+          </div>
+          <div>
+            <h2>
+              Mains
+            </h2>
+            <div
+              class="menu-items-container"
+            >
+              <span>
+                <button
+                  class="dish"
+                  type="button"
+                >
+                  Steak
+                  <p
+                    class="dish-price"
+                  >
+                    18
+                     Eur
+                  </p>
+                </button>
+              </span>
+              <span>
+                <button
+                  class="dish"
+                  type="button"
+                >
+                  Meatballs
+                  <p
+                    class="dish-price"
+                  >
+                    11.5
+                     Eur
+                  </p>
+                </button>
+              </span>
+              <span>
+                <button
+                  class="dish"
+                  type="button"
+                >
+                  Salmon fillet
+                  <p
+                    class="dish-price"
+                  >
+                    14
+                     Eur
+                  </p>
+                </button>
+              </span>
+              <span>
+                <button
+                  class="dish"
+                  type="button"
+                >
+                  Vegetarian lasagna
+                  <p
+                    class="dish-price"
+                  >
+                    12
+                     Eur
+                  </p>
+                </button>
+              </span>
+            </div>
+          </div>
+          <div>
+            <h2>
+              Desserts
+            </h2>
+            <div
+              class="menu-items-container"
+            >
+              <span>
+                <button
+                  class="dish"
+                  type="button"
+                >
+                  Sticky toffee
+                  <p
+                    class="dish-price"
+                  >
+                    18
+                     Eur
+                  </p>
+                </button>
+              </span>
+              <span>
+                <button
+                  class="dish"
+                  type="button"
+                >
+                  Tiramisu
+                  <p
+                    class="dish-price"
+                  >
+                    4.5
+                     Eur
+                  </p>
+                </button>
+              </span>
+              <span>
+                <button
+                  class="dish"
+                  type="button"
+                >
+                  Cheesecake
+                  <p
+                    class="dish-price"
+                  >
+                    4
+                     Eur
+                  </p>
+                </button>
+              </span>
+              <span>
+                <button
+                  class="dish"
+                  type="button"
+                >
+                  Ice cream
+                  <p
+                    class="dish-price"
+                  >
+                    3.5
+                     Eur
+                  </p>
+                </button>
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="checkout"
+      >
+        <div
+          class="checkout-container"
+        >
+          <header
+            class="checkout-header"
+          >
+            <button
+              class="select-diner-button left"
+              data-testid="select-diner-button left"
+              disabled=""
+              type="button"
+            >
+              Diner 1
+            </button>
+            <button
+              class="select-diner-button right"
+              data-testid="select-diner-button right"
+              type="button"
+            >
+              Diner 2
+            </button>
+          </header>
+          <div
+            class="checkout-items"
+          />
+          <div
+            class="checkout-footer"
+          >
+            <div
+              class="total-bill-label"
+            />
+            <button
+              class="order-button"
+              data-testid="order-button"
+              disabled=""
+              type="button"
+            >
+              Order
+            </button>
+            <div
+              class="error-text"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;

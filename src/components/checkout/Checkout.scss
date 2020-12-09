@@ -1,0 +1,62 @@
+.checkout-container {
+    background-color: #bec4e4;
+    border-radius: 4px;
+    min-height: 150px;
+    min-width: 96px;
+    position: relative;
+    padding-bottom: 48px;
+
+    .checkout-header {
+        width: 100%;
+
+        .select-diner-button {
+            width: 50%;
+            height: 24px;
+            outline: none;
+            cursor: pointer;
+
+            &.left {
+                border-top-left-radius: 4px;
+            }
+
+            &.right {
+                border-top-right-radius: 4px;
+            }
+        }
+    }
+
+    .checkout-items {
+        text-align: center;
+
+        .remove-item-button {
+            float: right;
+            margin-right: 4px; //fix this to move only button, not text
+            background-color: transparent;
+            background-repeat: no-repeat;
+            overflow: hidden;
+            outline: none;
+            box-shadow: 2px 2px 4px 0px rgba(0, 0, 0, 0.5);
+            cursor: pointer;
+        }
+    }
+    .checkout-footer {
+        text-align: center;
+
+        .total-bill-label {
+            background-color: #a695d4;
+        }
+
+        .order-button {
+            width: 60%;
+            border-radius: 4px;
+            margin-bottom: 8px;
+            box-shadow: 2px 2px 4px 0px rgba(0, 0, 0, 0.5);
+            position: absolute;
+            bottom: 8px;
+            right: 50%;
+            transform: translateX(50%);
+            outline: none;
+            cursor: pointer;
+        }
+    }
+}
