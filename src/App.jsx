@@ -22,7 +22,7 @@ const App = () => {
     );
 };
 
-// render(<App />, document.getElementById('root'));
-render(<App />, document.getElementById('root') || document.createElement('div')); // for testing
+render(<App />, document.getElementById('root'));
+// render(<App />, document.getElementById('root') || document.createElement('div')); // for testing
 
 export default App;
