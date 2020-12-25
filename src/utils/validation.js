@@ -36,34 +36,26 @@ const checkIfCheesecakeOrdered = ({ state, payload }) => {
 
 const checkOrderLength = ({ state }) => {
     const orders = Object.keys(state.orders);
-    let alreadyNotValid = false;
 
-    const orderIsNotValid = orders.reduce((_, __, currentIndex) => {
-        if (alreadyNotValid) return true;
-        if (state.orders[currentIndex].courses.length < 2) {
-            alreadyNotValid = true;
+    for (let i = 0; i < orders.length; i++) {
+        if (state.orders[i].courses.length < 2) {
             return true;
         }
-        return false;
-    }, orders.length);
+    }
 
-    return orderIsNotValid;
+    return false;
 };
 
 const checkIfOrderHasNoMains = ({ state }) => {
     const orders = Object.keys(state.orders);
-    let alreadyHasNoMains = false;
 
-    const orderHasNoMains2 = orders.reduce((_, __, currentIndex) => {
-        if (alreadyHasNoMains) return true;
-        if (!state.orders[currentIndex].courses.includes('mains')) {
-            alreadyHasNoMains = true;
+    for (let i = 0; i < orders.length; i++) {
+        if (!state.orders[i].courses.includes('mains')) {
             return true;
         }
-        return false;
-    }, orders.length);
+    }
 
-    return orderHasNoMains2;
+    return false;
 };
 
 const checkoutValidation = ({ state, payload }) => {
